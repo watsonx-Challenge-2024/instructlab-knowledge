@@ -52,9 +52,7 @@ await myQueue.add(
 );
 ```
 
-{% hint style="info" %}
 The auto removal of jobs works lazily. This means that jobs are not removed unless a new job completes or fails, since that is when the auto-removal takes place.
-{% endhint %}
 
 ### What about idempotence?
 
